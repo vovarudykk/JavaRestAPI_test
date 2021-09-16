@@ -1,0 +1,7 @@
+package com.ua.kpi.lab7.repository;
+
+import com.ua.kpi.lab7.entity.UserScore;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserScoreRepository extends JpaRepository<UserScore, Long> {
+}
